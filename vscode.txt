@@ -1,1 +1,5 @@
-vscode push
+vscode
+version2
+git commit "" //긴 내용으로 commit하기
+git commit -m ""//짧은 내용으로 commit하기
+git commit -am ""//git add + git commit -m (단, add돠는 파일은 tracked된 파일이여 함. untracked된 파일은 git add 해준다!)
