@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no"> <!--모바일에서 숫지를 자동전화 걸기 방지-->
-    <title>responsive web</title>
+    <title>responsive web 1</title>
     <link rel="stylesheet" href="../reset.css">
     <style>
         /* body {background:skyblue;} */
@@ -17,18 +17,22 @@
         .left { background:skyblue;}
         .right { background:orange;}
         /* @media 작성시 상속은 @media퀴리 밖에 있는 값을 개별 @media에 각각 상속하게 된다*/
-         @media (min-width:701px) and (max-width:900px) { /*laptop*/
+         
+        /*laptop*/
+          @media (min-width:701px) and (max-width:900px) {
             body { padding:0 20px;}
             .wrap { width:100%; margin:auto;}
         }
 
-        @media (min-width:501px) and (max-width:700px) { /*tabletla PC*/
+        /*tabletla PC*/
+        @media (min-width:501px) and (max-width:700px) { 
             .wrap { width:100%; margin:auto;}
             .flex .left,
             .flex .right { height:300px;}
         }
 
-        @media (min-width:0px) and (max-width:500px) { /*mobile*/
+        /*mobile*/
+        @media (min-width:0px) and (max-width:500px) {
             .wrap { width:100%; margin:auto;}
             .visual {height:300px;}
             .flex {display: block;}

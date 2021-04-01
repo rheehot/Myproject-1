@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.left,
+.right {position:absolute; top:0; width:100px; height:400px;}
+.left {left:0;  background:powderblue;}
+.right {right:0; background:peru;}
+.visual {background:plum; width:100%; height:400px;}
